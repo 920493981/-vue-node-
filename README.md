@@ -1,6 +1,6 @@
 # blog
 
-[《一个 Vue + Node + MongoDB 博客系统》](https://chaohangz.github.io/2017/04/17/vue-blog%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/#more)
+一个 Vue + Node + MongoDB 博客系统
 
 ## ENV
 1. Node.js v6.9.4
@@ -60,7 +60,7 @@
 ## How to start
 ``` bash
 # clone projext
-git clone https://
+git clone https://github.com/920493981/-vue-node-.git
 
 # 安装依赖
 cd blog
