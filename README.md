@@ -8,11 +8,11 @@
 3. Vue.js v2.2.1
 
 ## 实现的功能
-1. 文章的编辑，修改，删除
-2. 支持使用 `Markdown` 编辑与实时预览
+1. 支持用户注册登录以及退出
+2. 文章的编辑，修改，删除
 3. 支持代码高亮
 4. 给文章添加标签
-5. 支持用户注册登录
+5. 支持使用 `Markdown` 编辑与实时预览
 
 ## 使用到的技术
 ### 前端
@@ -27,7 +27,9 @@
 ### 后端
 1. Node.js
 2. Express
-3. Mongoose
+
+### 数据库
+ Mongoose
 
 ## 项目目录
 
@@ -58,14 +60,14 @@
 ## How to start
 ``` bash
 # clone projext
-git clone https://github.com/chaohangz/blog.git
+git clone https://
 
 # 安装依赖
 cd blog
 npm install
 
 # 启动数据库
-mongod
+mongod （或者在MongoDB安装目录下直接启动mongod 并且启动图形化界面ReMongoDB1.0）
 
 # 启动服务器
 node app
